@@ -5,7 +5,7 @@ echo COMPILING
 rm -rf ./compiled
 mkdir compiled
 cp -r ./src/ ./compiled/
-rm ./compiled/configs/
+rm -rf ./compiled/configs/
 
 rm ./compiled/front-end/config.js
 rm ./compiled/front-end/config.mustache
@@ -25,6 +25,3 @@ cd ..
 
 cp -r ./compiled/back-end/ ./build/
 parcel build ./compiled/front-end/index.html --out-dir ./build/public/ --out-file index.html
-
-# cleanup
-ECHO CLEANUP
