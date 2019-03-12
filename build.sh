@@ -8,11 +8,12 @@ cp -r ./src/ ./compiled/
 rm -rf ./compiled/configs/
 
 rm ./compiled/front-end/config.js
-rm ./compiled/front-end/config.mustache
-mustache ./src/configs/front-end/$ENV.json ./src/front-end/config.mustache > ./compiled/front-end/config.js
-
 rm ./compiled/back-end/config.js
+
+rm ./compiled/front-end/config.mustache
 rm ./compiled/back-end/config.mustache
+
+mustache ./src/configs/front-end/$ENV.json ./src/front-end/config.mustache > ./compiled/front-end/config.js
 mustache ./src/configs/back-end/$ENV.json ./src/back-end/config.mustache > ./compiled/back-end/config.js
 
 # build
