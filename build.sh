@@ -5,7 +5,7 @@ echo COMPILING
 rm -rf ./compiled
 mkdir compiled
 cp -r ./src/ ./compiled/
-rm ./compiled/configss/
+rm ./compiled/configs/
 
 rm ./compiled/front-end/config.js
 rm ./compiled/front-end/config.mustache
