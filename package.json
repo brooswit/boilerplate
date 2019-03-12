@@ -1,0 +1,33 @@
+{
+  "name": "boilerplate",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "es6-promise": "^4.2.6",
+    "express": "^4.16.4",
+    "express-ws": "^4.0.0",
+    "vue": "^2.6.8",
+    "vuex": "^3.1.0",
+    "ws": "^6.2.0"
+  },
+  "scripts": {
+    "build": "bash build.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brooswit/boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brooswit/boilerplate/issues"
+  },
+  "homepage": "https://github.com/brooswit/boilerplate#readme",
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.6.0",
+    "cssnano": "^4.1.10",
+    "vue-template-compiler": "^2.6.8"
+  }
+}
